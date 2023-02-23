@@ -1,0 +1,55 @@
+.dot {
+    background-color: green;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.article-content {
+    background-color: pink;
+    padding: 30px;
+    height: 100%;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.template-grid {
+    display:grid;
+    gap: 2rem;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.article-1 .article-content {
+    background-color: pink;
+}
+.article-2 .article-content {
+    background-color: orange;
+}
+.article-3 .article-content {
+    background-color: powderblue;
+}
+.article-4 .article-content {
+    background-color: gold;
+}
+.article-5 .article-content {
+    background-color: wheat;
+}
+
+.grid-col-start-4 {
+    grid-column-start: 4;
+}
+
+.grid-row-start-1 {
+    grid-row-start: 1;
+}
+
+.grid-row-end-3 {
+    grid-row: 1 / 3;
+}
